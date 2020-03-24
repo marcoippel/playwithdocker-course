@@ -6,7 +6,4 @@ services:
     - /usr/bin/docker:/usr/bin/docker
     ports:
       - "80:80"
-    #build: .
     image: marcoippel/dockerstudy:latest
-
-  
