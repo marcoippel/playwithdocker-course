@@ -6,7 +6,6 @@ services:
     - /usr/bin/docker:/usr/bin/docker
     ports:
       - "80:80"
-      - "443:443"
     #build: .
     image: marcoippel/dockerstudy:latest
 
