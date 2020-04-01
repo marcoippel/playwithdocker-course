@@ -12,5 +12,6 @@ services:
     image: marcoippel/dockerstudy:latest
 networks:
   study:
+    name: study
     driver: overlay
     attachable: true
