@@ -5,12 +5,7 @@ services:
     - /var/run/docker.sock:/var/run/docker.sock
     - /usr/bin/docker:/usr/bin/docker
     - /tmp:/tmp
-    networks:
-    - study
     ports:
       - "80:80"
     image: marcoippel/dockerstudy:latest
-networks:
-  study:
-    driver: overlay
-    attachable: true
+
