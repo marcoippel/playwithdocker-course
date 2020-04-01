@@ -5,11 +5,11 @@ services:
     - /var/run/docker.sock:/var/run/docker.sock
     - /usr/bin/docker:/usr/bin/docker
     - /tmp:/tmp
-    network: host {}
+    networks:
+    - study
     ports:
       - "80:80"
     image: marcoippel/dockerstudy:latest
 networks:
-  host:
-    external: true
-    name: host 
+  study:
+    driver: overlay
