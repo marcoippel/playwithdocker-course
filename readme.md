@@ -82,3 +82,4 @@ Als je denkt dat je het goed hebt gedaan kun je je werk controlleren door op de 
 Onder het kopje "Controle" zullen de resultaten te zien zijn van de opdracht
 
 De laatste opdracht is een linkje naar een feedback formulier. Ik zou het zeer op prijs stellen als je je feedback wilt achterlaten.
+![Docker study](https://github.com/marcoippel/playwithdocker-course/raw/master/images/dockerstudy.PNG)
