@@ -1,5 +1,5 @@
 # Inhoud
-1. [Wat id docker study](#1-wat-is-docker-study)
+1. [Wat is docker study](#1-wat-is-docker-study)
 2. [Hoe begin je met docker study op play with docker](#2-hoe-begin-je-met-docker-study-op-play-with-docker)
 3. [Hoe begin je met docker study op je eigen linux machine](#3-hoe-begin-je-met-docker-study-op-je-eigen-linux-machine)
 4. [Hoe werkt Docker study](#4-hoe-werkt-docker-study)
