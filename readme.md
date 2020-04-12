@@ -18,11 +18,11 @@ Bij Play with Docker kun je een omgeving aanmaken welke 4 uur beschikbaar blijft
 
 ![Play with Docker](https://github.com/marcoippel/playwithdocker-course/raw/master/images/playwithdocker.PNG)
 
-Login met je dockerhub account en dan zie je het voldende scherm
+Login met je dockerhub account en dan zie je het volgende scherm
 
 ![Play with Docker](https://github.com/marcoippel/playwithdocker-course/raw/master/images/playwithdocker_add_instance.PNG)
 
-Klik op add new instance, nu wordt er een machine klaargemaakt hierop is docker al geïnstalleerd. Hierop kun je nu je docker containers runnen. Je kan ook meerdere instanties aanmaken maar voor nu is een genoeg.
+Klik op add new instance, nu wordt er een machine klaargemaakt hierop is docker al geïnstalleerd. Hierop kun je nu je docker containers runnen. Je kunt ook meerdere instanties aanmaken maar voor nu is een genoeg.
 
 ![Play with Docker](https://github.com/marcoippel/playwithdocker-course/raw/master/images/playwithdocker_new_instance.PNG)
 
@@ -32,9 +32,9 @@ curl https://raw.githubusercontent.com/marcoippel/playwithdocker-course/master/s
 ```
 Wat er nu gebeurd is dat er een start.sh scriptje wordt gedownload op de machine en deze wordt meteen uitgevoerd.
 
-Het scriptje doet 2 dingen:
+Het script voert 2 acties uit:
 * Er wordt een docker-compose bestand gedownload
-* Doormiddel van het docker-compose commando wordt het bestand wat zojuist is gedownload uitgevoerd.
+* Door middel van het docker-compose commando wordt het bestand wat zojuist is gedownload uitgevoerd.
 
 Met het uitvoeren van het docker-compose bestand wordt de docker study container gestart en beschikbaar gemaakt op poort 80.
 
@@ -75,11 +75,11 @@ Open hierna in een browser de naam of het ipadres van je host machine gevolgd do
 
 Als eerste zie je een omschrijving van het onderwerp met eventueel meer informatie in een link naar externe bronnen.
 
-Er staat een opdracht welke je dient uit te voeren. Als je er echt niet uitkomt kan je op de link "hint" klikken dan zal je een aanwijzing of de oplossing zien.
+Er staat een opdracht welke je dient uit te voeren. Als je er echt niet uitkomt kun je op de link "hint" klikken dan zul je een aanwijzing of de oplossing zien.
 
 Als je denkt dat je het goed hebt gedaan kun je je werk controleren door op de controleer knop te klikken.
 
-Onder het kopje "Controle" zullen de resultaten te zien zijn van de opdracht
+Onder het kopje "Controle" zullen de resultaten te zien zijn van de opdracht.
 
 De laatste opdracht is een linkje naar een feedback formulier. Ik zou het zeer op prijs stellen als je je feedback wilt achterlaten.
 ![Docker study](https://github.com/marcoippel/playwithdocker-course/raw/master/images/dockerstudy.PNG)
