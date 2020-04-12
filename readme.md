@@ -1,15 +1,14 @@
 # Table of Contents
-1. [Hoe begin je met docker study op play with docker](#hoe)
-2. [Example2](#example2)
-3. [Third Example](#third-example)
-4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+1. [Hoe begin je met docker study op play with docker](#hoe-play-with-docker)
+2. [Example2](#hoe-eigen-linux-machine)
+3. [Hoe werkt Docker study](#hoe-werkt-docker-study)
 
 ## Wat is docker study
 
 Docker study is een handige manier om docker te leren. Het is een docker container welke een web applicatie bevat waar opdrachten in staan. als je de opdracht hebt uitgevoerd kun je meteen controlleren of je het goed hebt gedaan. ![Docker study](images/dockerstudy.png)
 
 
-<a name="hoe"></a>
+<a name="#hoe-play-with-docker"></a>
 ## Hoe begin je met docker study op play with docker
 
 Je kunt heel gemakkelijk docker study starten op een hosted docker omgeving.
@@ -18,15 +17,15 @@ Als voorbeeld gebruik ik hier [Play with Docker](https://labs.play-with-docker.c
 
 Bij Play with Docker kun je een omgeving aanmaken welke 4 uur beschikbaar blijft. ideaal dus om een korte training te doen of om dingen uit te proberen. Voor Play with Docker heb je een docker hub account als je deze niet hebt kun je deze aanmaken op [dockerhub](https://hub.docker.com/)
 
-![Play with Docker](images/playwithdocker.png)
+![Play with Docker](https://raw.githubusercontent.com/marcoippel/playwithdocker-course/master/images/playwithdocker.png)
 
 Login met je dockerhub account en dan zie je het voldende scherm
 
-![Play with Docker](images/playwithdocker_add_instance.png)
+![Play with Docker](https://raw.githubusercontent.com/marcoippel/playwithdocker-course/master/images/playwithdocker_add_instance.png)
 
 Klik op add new instance, nu wordt er een machine klaargemaakt met daarop docker geinstalleerd. Hierop kun je nu je docker containers runnen. Je kan ook meerdere instanties aanmaken maar voor nu is een genoeg.
 
-![Play with Docker](images/playwithdocker_new_instance.png)
+![Play with Docker](https://raw.githubusercontent.com/marcoippel/playwithdocker-course/master/images/playwithdocker_new_instance.png)
 
 Voer in de terminal van de docker machine het volgende commando uit
 ```bash
@@ -40,12 +39,13 @@ Het scriptje doet 2 dingen:
 
 Met het uitvoeren van het docker-compose bestand wordt de docker study container gestart en wordt poort 80 beschikbaar gemaakt.
 
-![Play with Docker](images/playwithdocker_sh_script.png)
+![Play with Docker](https://raw.githubusercontent.com/marcoippel/playwithdocker-course/master/images/playwithdocker_sh_script.png)
 
 Als je nu op poort 80 klikt zal de web interface van docker study geladen worden.
 
-![Docker study](images/dockerstudy.png)
+![Docker study](https://raw.githubusercontent.com/marcoippel/playwithdocker-course/master/images/dockerstudy.png)
 
+<a name="#hoe-eigen-linux-machine"></a>
 ## Hoe begin je met docker study op je eigen linux machine
 
 Mocht je een linux machine tot je beschikking hebben met docker daarop dan kun je het volgende script uitvoeren in de terminal
@@ -73,6 +73,7 @@ services:
 ```
 Open hierna in een browser de naam of het ipadres van je host machine gevolgd door het zojuist ingevoerde poort nummer bijv. localhost:8080
 
+<a name="#hoe-werkt-docker-study"></a>
 ## Hoe werkt docker study.
 
 Als eerste zie je een omschrijving van het onderwerp met eventueel meer informatie in een link naar externe bronnen.
