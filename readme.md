@@ -6,7 +6,7 @@
 
 ## 1. Wat is docker study
 
-Docker study is een handige manier om docker te leren. Het is een docker container welke een web applicatie bevat waar opdrachten in staan. als je de opdracht hebt uitgevoerd kun je meteen controlleren of je het goed hebt gedaan. ![Docker study](https://github.com/marcoippel/playwithdocker-course/raw/master/images/dockerstudy.PNG)
+Docker study is een handige manier om docker te leren. Het is een docker container welke een web applicatie bevat waar opdrachten in staan. Als je de opdracht hebt uitgevoerd kun je meteen controlleren of je het goed hebt gedaan. ![Docker study](https://github.com/marcoippel/playwithdocker-course/raw/master/images/dockerstudy.PNG)
 
 ## 2. Hoe begin je met docker study op play with docker
 
@@ -22,7 +22,7 @@ Login met je dockerhub account en dan zie je het voldende scherm
 
 ![Play with Docker](https://github.com/marcoippel/playwithdocker-course/raw/master/images/playwithdocker_add_instance.PNG)
 
-Klik op add new instance, nu wordt er een machine klaargemaakt met daarop docker geinstalleerd. Hierop kun je nu je docker containers runnen. Je kan ook meerdere instanties aanmaken maar voor nu is een genoeg.
+Klik op add new instance, nu wordt er een machine klaargemaakt hierop is docker al geïnstalleerd. Hierop kun je nu je docker containers runnen. Je kan ook meerdere instanties aanmaken maar voor nu is een genoeg.
 
 ![Play with Docker](https://github.com/marcoippel/playwithdocker-course/raw/master/images/playwithdocker_new_instance.PNG)
 
@@ -36,7 +36,7 @@ Het scriptje doet 2 dingen:
 * Er wordt een docker-compose bestand gedownload
 * Doormiddel van het docker-compose commando wordt het bestand wat zojuist is gedownload uitgevoerd.
 
-Met het uitvoeren van het docker-compose bestand wordt de docker study container gestart en wordt poort 80 beschikbaar gemaakt.
+Met het uitvoeren van het docker-compose bestand wordt de docker study container gestart en beschikbaar gemaakt op poort 80.
 
 ![Play with Docker](https://github.com/marcoippel/playwithdocker-course/raw/master/images/playwithdocker_sh_script.PNG)
 
@@ -77,7 +77,7 @@ Als eerste zie je een omschrijving van het onderwerp met eventueel meer informat
 
 Er staat een opdracht welke je dient uit te voeren. Als je er echt niet uitkomt kan je op de link "hint" klikken dan zal je een aanwijzing of de oplossing zien.
 
-Als je denkt dat je het goed hebt gedaan kun je je werk controlleren door op de controlleer knop te klikken.
+Als je denkt dat je het goed hebt gedaan kun je je werk controleren door op de controleer knop te klikken.
 
 Onder het kopje "Controle" zullen de resultaten te zien zijn van de opdracht
 
