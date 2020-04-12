@@ -1,15 +1,16 @@
-# Table of Contents
-1. [Hoe begin je met docker study op play with docker](#hoe-play-with-docker)
-2. [Example2](#hoe-eigen-linux-machine)
-3. [Hoe werkt Docker study](#hoe-werkt-docker-study)
+# Inhoud
+1. [Wat id docker study](#wat-is-docker-study)
+2. [Hoe begin je met docker study op play with docker](#hoe-play-with-docker)
+3. [Hoe begin je met docker study op je eigen linux machine](#hoe-eigen-linux-machine)
+4. [Hoe werkt Docker study](#hoe-werkt-docker-study)
 
-## Wat is docker study
+<a name="#wat-is-docker-study"></a>
+## 1. Wat is docker study
 
 Docker study is een handige manier om docker te leren. Het is een docker container welke een web applicatie bevat waar opdrachten in staan. als je de opdracht hebt uitgevoerd kun je meteen controlleren of je het goed hebt gedaan. ![Docker study](https://github.com/marcoippel/playwithdocker-course/raw/master/images/dockerstudy.PNG)
 
-
 <a name="#hoe-play-with-docker"></a>
-## Hoe begin je met docker study op play with docker
+## 2. Hoe begin je met docker study op play with docker
 
 Je kunt heel gemakkelijk docker study starten op een hosted docker omgeving.
 
@@ -46,7 +47,7 @@ Als je nu op poort 80 klikt zal de web interface van docker study geladen worden
 ![Docker study](https://github.com/marcoippel/playwithdocker-course/raw/master/images/dockerstudy.PNG)
 
 <a name="#hoe-eigen-linux-machine"></a>
-## Hoe begin je met docker study op je eigen linux machine
+## 3. Hoe begin je met docker study op je eigen linux machine
 
 Mocht je een linux machine tot je beschikking hebben met docker daarop dan kun je het volgende script uitvoeren in de terminal
 ```bash
@@ -58,7 +59,7 @@ Open poort 80 op je linux machine en dan zie je ook de web interface van docker 
 curl https://raw.githubusercontent.com/marcoippel/playwithdocker-course/master/pwd-docker-compose.yml -o docker-compose.yaml
 ```
 
-Hierna kun je het bestand docker-compose openen met je favoriete test editor en pas de text beschikbare poort aan naar een poort nummer wat wel beschikbaar is op je linux machine.
+Hierna kun je het bestand docker-compose openen met je favoriete text editor en pas de text beschikbare poort aan naar een poort nummer wat wel beschikbaar is op je linux machine.
 ```
 version: '3.2'
 services:
@@ -74,7 +75,7 @@ services:
 Open hierna in een browser de naam of het ipadres van je host machine gevolgd door het zojuist ingevoerde poort nummer bijv. localhost:8080
 
 <a name="#hoe-werkt-docker-study"></a>
-## Hoe werkt docker study.
+## 4. Hoe werkt docker study.
 
 Als eerste zie je een omschrijving van het onderwerp met eventueel meer informatie in een link naar externe bronnen.
 
