@@ -1,15 +1,13 @@
 # Inhoud
-1. [Wat id docker study](#wat-is-docker-study)
-2. [Hoe begin je met docker study op play with docker](#hoe-play-with-docker)
-3. [Hoe begin je met docker study op je eigen linux machine](#hoe-eigen-linux-machine)
-4. [Hoe werkt Docker study](#hoe-werkt-docker-study)
+1. [Wat id docker study](#1-wat-is-docker-study)
+2. [Hoe begin je met docker study op play with docker](#2-hoe-begin-je-met-docker-study-op-play-with-docker)
+3. [Hoe begin je met docker study op je eigen linux machine](#3-hoe-begin-je-met-docker-study-op-je-eigen-linux-machine)
+4. [Hoe werkt Docker study](#4-hoe-werkt-docker-study)
 
-<a name="#wat-is-docker-study"></a>
 ## 1. Wat is docker study
 
 Docker study is een handige manier om docker te leren. Het is een docker container welke een web applicatie bevat waar opdrachten in staan. als je de opdracht hebt uitgevoerd kun je meteen controlleren of je het goed hebt gedaan. ![Docker study](https://github.com/marcoippel/playwithdocker-course/raw/master/images/dockerstudy.PNG)
 
-<a name="#hoe-play-with-docker"></a>
 ## 2. Hoe begin je met docker study op play with docker
 
 Je kunt heel gemakkelijk docker study starten op een hosted docker omgeving.
@@ -46,7 +44,6 @@ Als je nu op poort 80 klikt zal de web interface van docker study geladen worden
 
 ![Docker study](https://github.com/marcoippel/playwithdocker-course/raw/master/images/dockerstudy.PNG)
 
-<a name="#hoe-eigen-linux-machine"></a>
 ## 3. Hoe begin je met docker study op je eigen linux machine
 
 Mocht je een linux machine tot je beschikking hebben met docker daarop dan kun je het volgende script uitvoeren in de terminal
@@ -74,7 +71,6 @@ services:
 ```
 Open hierna in een browser de naam of het ipadres van je host machine gevolgd door het zojuist ingevoerde poort nummer bijv. localhost:8080
 
-<a name="#hoe-werkt-docker-study"></a>
 ## 4. Hoe werkt docker study.
 
 Als eerste zie je een omschrijving van het onderwerp met eventueel meer informatie in een link naar externe bronnen.
