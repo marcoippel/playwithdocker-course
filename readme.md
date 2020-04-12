@@ -5,7 +5,7 @@
 
 ## Wat is docker study
 
-Docker study is een handige manier om docker te leren. Het is een docker container welke een web applicatie bevat waar opdrachten in staan. als je de opdracht hebt uitgevoerd kun je meteen controlleren of je het goed hebt gedaan. ![Docker study](images/dockerstudy.png)
+Docker study is een handige manier om docker te leren. Het is een docker container welke een web applicatie bevat waar opdrachten in staan. als je de opdracht hebt uitgevoerd kun je meteen controlleren of je het goed hebt gedaan. ![Docker study](https://github.com/marcoippel/playwithdocker-course/raw/master/images/dockerstudy.png)
 
 
 <a name="#hoe-play-with-docker"></a>
@@ -17,7 +17,7 @@ Als voorbeeld gebruik ik hier [Play with Docker](https://labs.play-with-docker.c
 
 Bij Play with Docker kun je een omgeving aanmaken welke 4 uur beschikbaar blijft. ideaal dus om een korte training te doen of om dingen uit te proberen. Voor Play with Docker heb je een docker hub account als je deze niet hebt kun je deze aanmaken op [dockerhub](https://hub.docker.com/)
 
-![Play with Docker](https://raw.githubusercontent.com/marcoippel/playwithdocker-course/master/images/playwithdocker.png)
+![Play with Docker](https://github.com/marcoippel/playwithdocker-course/raw/master/images/playwithdocker.png)
 
 Login met je dockerhub account en dan zie je het voldende scherm
 
