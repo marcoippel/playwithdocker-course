@@ -21,11 +21,11 @@ Bij Play with Docker kun je een omgeving aanmaken welke 4 uur beschikbaar blijft
 
 Login met je dockerhub account en dan zie je het voldende scherm
 
-![Play with Docker](https://raw.githubusercontent.com/marcoippel/playwithdocker-course/master/images/playwithdocker_add_instance.png)
+![Play with Docker](https://github.com/marcoippel/playwithdocker-course/raw/master/images/playwithdocker_add_instance.png)
 
 Klik op add new instance, nu wordt er een machine klaargemaakt met daarop docker geinstalleerd. Hierop kun je nu je docker containers runnen. Je kan ook meerdere instanties aanmaken maar voor nu is een genoeg.
 
-![Play with Docker](https://raw.githubusercontent.com/marcoippel/playwithdocker-course/master/images/playwithdocker_new_instance.png)
+![Play with Docker](https://github.com/marcoippel/playwithdocker-course/raw/master/images/playwithdocker_new_instance.PNG)
 
 Voer in de terminal van de docker machine het volgende commando uit
 ```bash
@@ -39,11 +39,11 @@ Het scriptje doet 2 dingen:
 
 Met het uitvoeren van het docker-compose bestand wordt de docker study container gestart en wordt poort 80 beschikbaar gemaakt.
 
-![Play with Docker](https://raw.githubusercontent.com/marcoippel/playwithdocker-course/master/images/playwithdocker_sh_script.png)
+![Play with Docker](https://github.com/marcoippel/playwithdocker-course/raw/master/images/playwithdocker_sh_script.png)
 
 Als je nu op poort 80 klikt zal de web interface van docker study geladen worden.
 
-![Docker study](https://raw.githubusercontent.com/marcoippel/playwithdocker-course/master/images/dockerstudy.png)
+![Docker study](https://github.com/marcoippel/playwithdocker-course/raw/master/images/dockerstudy.png)
 
 <a name="#hoe-eigen-linux-machine"></a>
 ## Hoe begin je met docker study op je eigen linux machine
