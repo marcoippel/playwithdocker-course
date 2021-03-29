@@ -8,4 +8,9 @@ services:
     ports:
       - "80:80"
     image: marcoippel/dockerstudy:latest
+    networks:
+      - frontend
+networks:
+  frontend:
+    name: dockerstudy-basics
 
