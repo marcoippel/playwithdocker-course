@@ -4,7 +4,7 @@ services:
     volumes:
     - /var/run/docker.sock:/var/run/docker.sock
     - /usr/bin/docker:/usr/bin/docker
-    - c:\\temp\\:/tmp
+    - c:\\temp:/docker-data
     ports:
       - "80:80"
     image: marcoippel/dockerstudy:latest
